@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Portal</string>
+    <string name="title_activity_hosting">HostingActivity</string>
+    <string name="title_activity_connecting">ConnectingActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_entrance">EntranceActivity</string>
+    <string name="cancel">取消</string>
+    
+    <string name="search">搜索附近</string>
+    <string name="services">建立服务</string>
+    <string name="scan">scan</string>
+	<string name="equipment">设备信息</string>
+	<string name="equipment_defult">equipment</string>
+    <string name="eqi_signal">eqi_signal</string>
+    <string name="state_link">已连接</string>
+    <string name="sound">sound</string>
+    <string name="send">发送</string>
+    <string name="txt">txt</string>
+    <string name="record">按住录音</string>
+
+</resources>

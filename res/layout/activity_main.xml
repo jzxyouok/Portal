@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btn_start_hosting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="开启服务" />
+
+    <Button
+        android:id="@+id/btn_start_connecting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btn_start_hosting"
+        android:text="连接别人" />
+
+    <Button
+        android:id="@+id/btn_test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_start_hosting"
+        android:text="Test1" />
+
+    <Button
+        android:id="@+id/btn_test4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_test2"
+        android:layout_alignBottom="@+id/btn_test2"
+        android:layout_toRightOf="@+id/btn_test2"
+        android:text="Cancel Wifi" />
+
+    <Button
+        android:id="@+id/btn_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_test1"
+        android:text="Connect Wifi" />
+
+    <Button
+        android:id="@+id/btn_test5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_test2"
+        android:text="Turn on AP" />
+
+    <Button
+        android:id="@+id/btn_test6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_test5"
+        android:layout_alignBottom="@+id/btn_test5"
+        android:layout_toRightOf="@+id/btn_test5"
+        android:text="Turn off AP" />
+
+    <Button
+        android:id="@+id/btn_test10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_test4"
+        android:layout_toRightOf="@+id/btn_test1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn_rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_test5"
+        android:text="Rec" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_rec"
+        android:layout_alignBottom="@+id/btn_rec"
+        android:layout_toRightOf="@+id/btn_rec"
+        android:text="Play" />
+    
+</RelativeLayout>

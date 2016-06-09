@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal"
+    android:paddingTop="30dp"
+    android:descendantFocusability="blocksDescendants">
+    
+    <TextView 
+        android:id="@+id/equip_name"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="left"
+        android:text="@string/equipment_defult"/>
+    <ImageButton 
+        android:id="@+id/equip_singal"
+        android:contentDescription="@string/eqi_signal"
+        android:background="@drawable/wifi3"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1"/>
+
+    <TextView 
+        android:id="@+id/link_state"
+        android:layout_marginLeft="10sp"
+        android:textSize="12sp"
+        android:textColor="#F3D818"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="0.2"
+        android:text="@string/state_link"/>
+</LinearLayout>

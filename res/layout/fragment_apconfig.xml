@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:text="热点配置"
+        />
+    
+    <View 
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:background="#FFFFFF"
+	        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SSID"/>
+
+    <EditText
+        android:id="@+id/tv_ssid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10">
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_start_hotspot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="为了防止流量偷跑，开启前请确定您的数据流量已经关闭"/>
+
+</LinearLayout>
